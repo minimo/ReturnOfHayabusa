@@ -4,7 +4,8 @@
 	2011/07/22
 
 */
-
+window.focus();
+window.addEventListener('mousedown', () => window.focus());
 enchant();
 
 window.onload = function() {
